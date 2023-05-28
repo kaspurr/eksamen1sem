@@ -1,0 +1,552 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Orbitron&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*GENERELT*/
+
+
+*{
+    margin:0;
+    padding:0;
+ 
+}
+
+body{
+    background-image: url(hr-baggrund1.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin: auto;
+}
+
+
+
+
+
+/*!!!!!!!!!!!!   HEADER    !!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+#logo img{
+    position: absolute;
+    width: 250px;
+    top:15px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    cursor:pointer;
+}
+
+nav{
+    font-family: 'Raleway';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    width: 100%;;
+}
+
+nav a{
+    margin: 1% 7%;
+    color: #f500dd;
+    background-color: white;
+    padding: 3px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav a:hover{
+    text-decoration: underline; 
+    background-color: rgb(207, 207, 207);
+}
+
+#leftnav a{
+    float: left;
+}
+
+#rightnav a{
+    float: right;
+}
+
+header section img
+{
+    position: absolute;
+    width: 40px;
+    right: 100px;
+    top: 85px;
+}
+
+header #tilbage img
+{
+    position: absolute;
+    width: 40px;
+    left: 100px;
+    top: 85px;
+
+}
+
+header section img{
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.3));
+}
+
+
+
+
+
+
+/*!!!!!!!!!!!!   STARTSIDE    !!!!!!!!!!!!!!!!!!!!*/
+
+
+.knap a{
+    font-family: 'Raleway';
+    font-weight: 400;
+
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main h1
+{
+    text-shadow: 0px 3px 2px rgba(255, 255, 255, 0.709);
+    position: absolute;
+    font-size: 70px;
+    top: 232px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    line-height: 129px;
+}
+
+h2
+{
+position: absolute;
+font-family: 'Raleway';
+}
+
+#home h2{
+font-weight: 200;
+font-size: 25px;
+top:350px;
+line-height: 41px;
+
+}
+
+main .knap
+{
+position: absolute;
+font-size: 15px;
+top:440px;
+}
+
+.knap a{
+    font-family: 'Raleway';
+    font-weight: 400;
+    color: #f500dd;
+    background-color: white;
+    padding: 6px 35px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+main .knap a:hover{
+        text-decoration: underline; 
+        background-color: rgb(207, 207, 207);
+    }
+
+
+
+
+
+
+
+
+/*!!!!!!!!!!!!   RESULTATER    !!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
+
+#trekort{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:auto;
+    padding-top:110px;
+    width: 100%;
+    flex-direction: row;
+    height:100%;
+}
+
+.kort {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    margin: 3%;
+  }
+
+.kort a{
+    color: black;
+}
+
+.kort h2{
+    top:30;
+    position: relative;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+.kort h2:hover{
+    text-decoration: underline;
+    color: #f500dd;
+}
+
+.ikon{
+    width:80px;
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.3));
+}
+
+.pic{
+    width:220px;
+    border: black 0.5px solid;
+    border-radius: 30px;
+}
+
+.kort p{
+    font-family: 'handlee';
+    text-align: center;
+    margin: 0 1px;
+}
+
+
+
+
+
+
+
+
+
+
+/*!!!!!!!!!!!!   ARTIKLER    !!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
+
+
+.mobilart{
+    display: none;
+}
+
+.articlemain div{
+    margin-top:150px;
+    width: 60%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.978);
+    border-radius: 30px;
+    border: white 1px solid;
+    padding-top:150px;
+    padding-bottom:80px;
+    margin-bottom: 70px;
+    filter: drop-shadow(0px 3px 2px rgba(0, 0, 0, 0.3));
+}
+
+.articlemain h1{
+    z-index:1;
+    top:210px;
+    width:60%;
+    text-shadow: none;
+    font-size: 60px;
+    letter-spacing: 3px;
+    border-bottom: 1px black solid;
+    text-align: center;
+    margin:auto;
+
+}
+
+.articlemain .row{
+    margin-top:70px;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+.articlemain .row img{
+    width:45%;
+    border-radius: 30px;
+    object-fit: cover;
+    padding:10px;
+
+}
+
+.articlemain .row p{
+    width: 45%;
+    max-height: 100%;
+    font-family: 'raleway';
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.articlemain .info{
+    margin-top:70px;
+    width: 100%;
+    font-family: 'raleway';
+    font-size: 17px;
+    margin-left:20px;
+}
+
+.articlemain .info p{
+    line-height:50px;
+}
+
+.articlemain .info p a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+/*!!!!!!!!!!!!   MEDIAQUERIES    !!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+
+
+@media only screen and (min-width: 975px){
+    #mobilnav{
+        display: none;
+    }
+
+
+    .kort:hover {
+    margin-top: -3px;
+    width: 320px;
+    height: 420px;
+    background-color:rgba(255, 255, 255, 0.844);
+    border-radius: 40px;
+    border:#f500dd dotted 1px;
+    transition: width 5s ease-in-out, height 5s ease-in-out, border-radius 5s ease-in-out, margin-top 5s ease-in-out; /* Tilføjet border-radius til overgangsegenskaber */
+    }
+  
+    .kort:not(:hover) {
+    transition: width 5s ease-in-out, height 5s ease-in-out, border-radius 5s ease-in-out, margin-top 5s ease-in-out; /* Tilføjet overgangsegenskaber, når elementet ikke er hoveret */
+  }
+
+}
+
+
+
+
+
+/*!!!!!!!!!!!!   første hak    !!!!!!!!!!!!!!!!!!!!*/
+
+
+
+
+@media only screen and (max-width: 1150px){
+
+    .mobilart{
+        display: block;
+    }
+
+    .laptopart{
+        display:none;
+    }
+
+    .articlemain{
+        margin-top:0;
+    }
+
+    .articlemain h1{
+        width:80%;
+    }
+
+    .articlemain div{
+        width: 80%;
+    }
+
+    .articlemain .row{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        height:auto;
+    }
+
+    .articlemain .row img{
+        width:80%;
+    }
+
+    .articlemain .row p{
+        width:80%;
+    }
+
+
+}
+
+/*!!!!!!!!!!!!   andet hak    !!!!!!!!!!!!!!!!!!!!*/
+
+
+
+@media only screen and (max-width: 975px){
+    #laptopnav{
+        display: none;
+    }
+
+    #mobilnav{
+        display: block;
+    }
+
+    header #tilbage img
+    {
+        position: absolute;
+        width: 50px;
+        left: 30px;
+        top: 36px;
+    }    
+
+    #mobilnav img{
+        width:70px;
+        padding-top:30px;
+        float: right;
+        padding-right:25px;
+    }
+
+    #mobilnav2 img{
+        width:40px;
+        padding-top:30px;
+        float: right;
+        padding-right:25px;
+    }
+
+    main h1
+{
+    text-align: center;
+    margin:auto;
+    top: 170px;
+    line-height: 80px;
+    padding-bottom: 50px;
+}
+
+    #home h2{
+        text-align: center;
+        margin:auto;
+        top:360px;
+    }
+
+    main .knap
+{
+    top:470px;
+    align-items: center;
+    margin: auto;
+}
+
+#trekort{
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    margin-top:-20px;
+}
+
+.kort{
+    padding-bottom: 10px;
+    margin-bottom: 70px;
+    width: 400px;
+    height:500px;
+}
+
+.pic{
+    width:80%;
+}
+
+.articlemain div{
+    margin-top:90px;
+}
+
+.articlemain .big{
+font-size: 30px;
+}
+
+.articlemain h1{
+    font-size: 30px;
+    justify-content: center;
+    margin:auto;
+    width:80%;
+    top:225px;
+    line-height: 10px;
+    }
+
+.articlemain .row{
+    margin-top:0;
+}
+
+
+.articlemain div p{
+    margin-bottom:60px;
+}
+}
+
+
+/*!!!!!!!!!!!!   MOBIL    !!!!!!!!!!!!!!!!!!!!*/
+
+@media only screen and (max-width: 650px){
+    #logo img{
+        width:38%;
+}
+
+}
+
+
+
+
+
+/*!!!!!!!!!!!!   BURGERMENU    !!!!!!!!!!!!!!!!!!!!*/
+
+
+#burger .knap{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    flex-direction: column;
+    top:150px;
+}
+
+#burger .knap a{
+    font-size: 20px;
+    margin:30px;
+    padding: auto ;
+}
