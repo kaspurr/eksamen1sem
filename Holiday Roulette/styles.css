@@ -359,11 +359,11 @@ main .knap a:hover{
     background-color:rgba(255, 255, 255, 0.844);
     border-radius: 40px;
     border:#f500dd dotted 1px;
-    transition: width 5s ease-in-out, height 5s ease-in-out, border-radius 5s ease-in-out, margin-top 5s ease-in-out; /* Tilføjet border-radius til overgangsegenskaber */
+    transition: width 5s ease-in-out, height 5s ease-in-out, border-radius 5s ease-in-out, margin-top 5s ease-in-out; 
     }
   
     .kort:not(:hover) {
-    transition: width 5s ease-in-out, height 5s ease-in-out, border-radius 5s ease-in-out, margin-top 5s ease-in-out; /* Tilføjet overgangsegenskaber, når elementet ikke er hoveret */
+    transition: width 5s ease-in-out, height 5s ease-in-out, border-radius 5s ease-in-out, margin-top 5s ease-in-out; 
   }
 
 }
